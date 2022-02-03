@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator | Expression</title>
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="js/expressionCalc.js"></script>
+</head>
+<body>
+  <ul> 
+	  <li><a href="index.html">Modalni Upitnik</a></li>
+	  <li><a href="calcExpression.html">Kalkulator Izraza</a></li>
+	  <li><a href="calcSimple.html">Jednostavan Kalkulator</a></li>
+  </ul>
+  <main>
+	  <h1>Kalkulator Izraza</h1>
+	  <div class="strip">
+	  	<div data-curr-op id="expression"></div>
+	  	<div data-result id="result"></div>
+	  </div>
+	  <div id="keyboard">
+  	  <div class="row">
+		    <div data-clear class="btn spec-btn" role="button"><span>C</span></div>
+  	    <div data-number class="btn" role="button"><span>1</span></div>
+  	    <div data-number class="btn" role="button"><span>2</span></div>
+  	    <div data-number class="btn" role="button"><span>3</span></div>
+  	    <div data-delete class="btn" role="button"><span>del</span></div>
+  	    <div data-operation class="btn" role="button"><span>*</span></div>
+  	    <div data-equals class="btn" role="button"><span>=</span></div>
+  	  </div>
+  	  <div class="row">
+		    <div data-number class="btn" role="button"><span>4</span></div>
+  	    <div data-number class="btn" role="button"><span>5</span></div>
+  	    <div data-number class="btn" role="button"><span>6</span></div>
+  	    <div data-number class="btn" role="button"><span>7</span></div>
+  	    <div data-operation class="btn" role="button"><span>-</span></div>
+  	    <div data-operation class="btn" role="button"><span>+</span></div>
+  	  </div>
+  	  <div class="row">
+				<div data-number class="btn" role="button"><span>8</span></div>
+  	    <div data-number class="btn" role="button"><span>9</span></div>
+  	    <div data-number class="btn" role="button"><span>0</span></div>
+  	    <div data-number class="btn" role="button"><span>.</span></div>
+  	    <div data-operation class="btn" role="button"><span>/</span></div>
+  	  </div>
+		</div>
+  </main> 
+</body>
+</html>
